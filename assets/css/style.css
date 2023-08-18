@@ -1,0 +1,81 @@
+
+
+:root {
+  --first-color: black;
+  --second-color: #e8d2eb;
+  --third-color: #6c1d70;
+}
+
+body {
+  font-size: x-large;
+  text-align: center;
+  background-color: var(--third-color);
+  color: var(--first-color);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Caprasimo', cursive;
+font-family: 'Chakra Petch', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.quizButton {
+  font-size: 50px;
+  font-weight: 500;
+  color: #007bff;
+  padding: 15px 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.box {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(203, 126, 198, 0.2), 
+              0 6px 20px 0 rgba(225, 170, 236, 0.19);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-family: 'Caprasimo', cursive;
+  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.countDown, .timerText {
+  display: flex;
+  align-items: center;
+}
+
+.quizButton, .answer {
+  max-width: 150px;
+  background-color: var(--second-color);
+  border: white;
+  color: black;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: 'Caprasimo', cursive;
+  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.invisible {
+  display: none;
+}
