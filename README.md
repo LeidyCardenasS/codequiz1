@@ -5,7 +5,7 @@ A timed multiple-choice quiz on JavaScript fundamentals that stores high scores 
 
 
 
-URL :
+URL : https://leidycardenass.github.io/codequiz1/
 
 
 
